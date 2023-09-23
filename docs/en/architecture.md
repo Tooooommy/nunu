@@ -1,17 +1,17 @@
 ## Documentation
-* [User Guide](https://github.com/go-nunu/nunu/blob/main/docs/en/guide.md)
-* [Architecture](https://github.com/go-nunu/nunu/blob/main/docs/en/architecture.md)
-* [Getting Started Tutorial](https://github.com/go-nunu/nunu/blob/main/docs/en/tutorial.md)
-* [Unit Testing](https://github.com/go-nunu/nunu/blob/main/docs/en/unit_testing.md)
+* [User Guide](https://github.com/Tooooommy/nunu/blob/main/docs/en/guide.md)
+* [Architecture](https://github.com/Tooooommy/nunu/blob/main/docs/en/architecture.md)
+* [Getting Started Tutorial](https://github.com/Tooooommy/nunu/blob/main/docs/en/tutorial.md)
+* [Unit Testing](https://github.com/Tooooommy/nunu/blob/main/docs/en/unit_testing.md)
 
 
-[切换简体中文](https://github.com/go-nunu/nunu/blob/main/docs/zh/architecture.md)
+[切换简体中文](https://github.com/Tooooommy/nunu/blob/main/docs/zh/architecture.md)
 
 # Exploring the Nunu Architecture
 
 Nunu adopts a classic layered architecture. Additionally, to achieve better modularity and decoupling, it utilizes the dependency injection framework `Wire`.
 
-![Nunu Layout](https://github.com/go-nunu/nunu/blob/main/.github/assets/layout.png)
+![Nunu Layout](https://github.com/Tooooommy/nunu/blob/main/.github/assets/layout.png)
 
 ## Directory Structure
 ```

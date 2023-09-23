@@ -2,15 +2,15 @@
 
 Nunu is a scaffolding tool for building Go applications. Its name comes from a game character in League of Legends, a little boy riding on the shoulders of a Yeti. Just like Nunu, this project stands on the shoulders of giants, as it is built upon a combination of popular libraries from the Go ecosystem. This combination allows you to quickly build efficient and reliable applications.
 
-[简体中文介绍](https://github.com/go-nunu/nunu/blob/main/README_zh.md)
+[简体中文介绍](https://github.com/Tooooommy/nunu/blob/main/README_zh.md)
 
-![Nunu](https://github.com/go-nunu/nunu/blob/main/.github/assets/banner.png)
+![Nunu](https://github.com/Tooooommy/nunu/blob/main/.github/assets/banner.png)
 
 ## Documentation
-* [User Guide](https://github.com/go-nunu/nunu/blob/main/docs/en/guide.md)
-* [Architecture](https://github.com/go-nunu/nunu/blob/main/docs/en/architecture.md)
-* [Getting Started Tutorial](https://github.com/go-nunu/nunu/blob/main/docs/en/tutorial.md)
-* [Unit Testing](https://github.com/go-nunu/nunu/blob/main/docs/en/unit_testing.md)
+* [User Guide](https://github.com/Tooooommy/nunu/blob/main/docs/en/guide.md)
+* [Architecture](https://github.com/Tooooommy/nunu/blob/main/docs/en/architecture.md)
+* [Getting Started Tutorial](https://github.com/Tooooommy/nunu/blob/main/docs/en/tutorial.md)
+* [Unit Testing](https://github.com/Tooooommy/nunu/blob/main/docs/en/unit_testing.md)
 
 
 ## Features
@@ -39,11 +39,11 @@ Nunu is a scaffolding tool for building Go applications. Its name comes from a g
 ## Concise Layered Architecture
 Nunu adopts a classic layered architecture. In order to achieve modularity and decoupling, it uses the dependency injection framework `Wire`.
 
-![Nunu Layout](https://github.com/go-nunu/nunu/blob/main/.github/assets/layout.png)
+![Nunu Layout](https://github.com/Tooooommy/nunu/blob/main/.github/assets/layout.png)
 
 ## Nunu CLI
 
-![Nunu](https://github.com/go-nunu/nunu/blob/main/.github/assets/screenshot.jpg)
+![Nunu](https://github.com/Tooooommy/nunu/blob/main/.github/assets/screenshot.jpg)
 
 
 ## Directory Structure
@@ -133,7 +133,7 @@ To use Nunu, you need to have the following software installed on your system:
 You can install Nunu with the following command:
 
 ```bash
-go install github.com/go-nunu/nunu@latest
+go install github.com/Tooooommy/nunu@latest
 ```
 
 > Tips: If `go install` succeeds but the `nunu` command is not recognized, it is because the environment variable is not configured. You can add the GOBIN directory to the environment variable.

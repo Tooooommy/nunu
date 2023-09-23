@@ -1,8 +1,8 @@
 ## 文档
-* [使用指南](https://github.com/go-nunu/nunu/blob/main/docs/zh/guide.md)
-* [分层架构](https://github.com/go-nunu/nunu/blob/main/docs/zh/architecture.md)
-* [详细教程](https://github.com/go-nunu/nunu/blob/main/docs/zh/tutorial.md)
-* [高效编写单元测试](https://github.com/go-nunu/nunu/blob/main/docs/zh/unit_testing.md)
+* [使用指南](https://github.com/Tooooommy/nunu/blob/main/docs/zh/guide.md)
+* [分层架构](https://github.com/Tooooommy/nunu/blob/main/docs/zh/architecture.md)
+* [详细教程](https://github.com/Tooooommy/nunu/blob/main/docs/zh/tutorial.md)
+* [高效编写单元测试](https://github.com/Tooooommy/nunu/blob/main/docs/zh/unit_testing.md)
 
 
 # 单元测试
@@ -99,7 +99,7 @@ Mock对象可以模拟外部模块的返回值、异常、超时等，使得测�
 package repository
 
 import (
-	"github.com/go-nunu/nunu-layout-advanced/internal/model"
+	"github.com/Tooooommy/nunu-layout-advanced/internal/model"
 )
 
 
@@ -207,7 +207,7 @@ func TestUserHandler_GetProfile(t *testing.T) {
 ```
 
 
-完整的源码位于： https://github.com/go-nunu/nunu-layout-advanced/blob/main/test/server/handler/user_test.go
+完整的源码位于： https://github.com/Tooooommy/nunu-layout-advanced/blob/main/test/server/handler/user_test.go
 
 ## sqlmock与redismock
 
@@ -225,8 +225,8 @@ import (
 	"time"
 
 	"github.com/DATA-DOG/go-sqlmock"
-	"github.com/go-nunu/nunu-layout-advanced/internal/model"
-	"github.com/go-nunu/nunu-layout-advanced/internal/repository"
+	"github.com/Tooooommy/nunu-layout-advanced/internal/model"
+	"github.com/Tooooommy/nunu-layout-advanced/internal/repository"
 	"github.com/go-redis/redismock/v9"
 	"github.com/stretchr/testify/assert"
 	"gorm.io/driver/mysql"
@@ -277,7 +277,7 @@ func TestUserRepository_GetByUsername(t *testing.T) {
 
 ```
 
-完整代码位于：https://github.com/go-nunu/nunu-layout-advanced/blob/main/test/server/repository/user_test.go
+完整代码位于：https://github.com/Tooooommy/nunu-layout-advanced/blob/main/test/server/repository/user_test.go
 
 
 ## 测试覆盖率
@@ -293,7 +293,7 @@ go tool cover -html=./coverage.out -o coverage.html
 
 效果如下：
 
-![coverage](https://github.com/go-nunu/nunu/blob/main/.github/assets/coverage.png)
+![coverage](https://github.com/Tooooommy/nunu/blob/main/.github/assets/coverage.png)
 
 ## 总结
 

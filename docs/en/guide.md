@@ -1,11 +1,11 @@
 ## Documentation
-* [User Guide](https://github.com/go-nunu/nunu/blob/main/docs/en/guide.md)
-* [Architecture](https://github.com/go-nunu/nunu/blob/main/docs/en/architecture.md)
-* [Getting Started Tutorial](https://github.com/go-nunu/nunu/blob/main/docs/en/tutorial.md)
-* [Unit Testing](https://github.com/go-nunu/nunu/blob/main/docs/en/unit_testing.md)
+* [User Guide](https://github.com/Tooooommy/nunu/blob/main/docs/en/guide.md)
+* [Architecture](https://github.com/Tooooommy/nunu/blob/main/docs/en/architecture.md)
+* [Getting Started Tutorial](https://github.com/Tooooommy/nunu/blob/main/docs/en/tutorial.md)
+* [Unit Testing](https://github.com/Tooooommy/nunu/blob/main/docs/en/unit_testing.md)
 
 
-[Switch to Chinese version](https://github.com/go-nunu/nunu/blob/main/docs/zh/guide.md)
+[Switch to Chinese version](https://github.com/Tooooommy/nunu/blob/main/docs/zh/guide.md)
 
 # Nunu User Guide
 
@@ -16,7 +16,7 @@ Nunu is an application scaffolding based on Golang that helps you quickly build 
 You can install Nunu using the following command:
 
 ```bash
-go install github.com/go-nunu/nunu@latest
+go install github.com/Tooooommy/nunu@latest
 ```
 
 > Tip: If `go install` is successful but the `nunu` command is not found, it is because the environment variable is not configured. You can configure the `GOBIN` directory in the environment variable.
@@ -162,7 +162,7 @@ package repository
 import (
 	"context"
 	"fmt"
-	"github.com/go-nunu/nunu-layout-advanced/pkg/log"
+	"github.com/Tooooommy/nunu-layout-advanced/pkg/log"
 	"github.com/redis/go-redis/v9"
 	"github.com/spf13/viper"
 	"gorm.io/driver/mysql"
@@ -235,8 +235,8 @@ package handler
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/go-nunu/nunu-layout-basic/internal/service"
-	"github.com/go-nunu/nunu-layout-basic/pkg/helper/resp"
+	"github.com/Tooooommy/nunu-layout-basic/internal/service"
+	"github.com/Tooooommy/nunu-layout-basic/pkg/helper/resp"
 	"go.uber.org/zap"
 	"net/http"
 )
@@ -274,7 +274,7 @@ You can connect to the database using the following code:
 package repository
 
 import (
-	"github.com/go-nunu/nunu-layout-advanced/internal/model"
+	"github.com/Tooooommy/nunu-layout-advanced/internal/model"
 )
 
 

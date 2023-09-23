@@ -1,11 +1,11 @@
 ## 文档
-* [使用指南](https://github.com/go-nunu/nunu/blob/main/docs/zh/guide.md)
-* [分层架构](https://github.com/go-nunu/nunu/blob/main/docs/zh/architecture.md)
-* [详细教程](https://github.com/go-nunu/nunu/blob/main/docs/zh/tutorial.md)
-* [高效编写单元测试](https://github.com/go-nunu/nunu/blob/main/docs/zh/unit_testing.md)
+* [使用指南](https://github.com/Tooooommy/nunu/blob/main/docs/zh/guide.md)
+* [分层架构](https://github.com/Tooooommy/nunu/blob/main/docs/zh/architecture.md)
+* [详细教程](https://github.com/Tooooommy/nunu/blob/main/docs/zh/tutorial.md)
+* [高效编写单元测试](https://github.com/Tooooommy/nunu/blob/main/docs/zh/unit_testing.md)
 
 
-[进入英文版](https://github.com/go-nunu/nunu/blob/main/docs/en/tutorial.md)
+[进入英文版](https://github.com/Tooooommy/nunu/blob/main/docs/en/tutorial.md)
 
 # Nunu框架使用教程
 
@@ -28,7 +28,7 @@ Nunu是一个基于Go语言的Web框架，它提供了一套优雅的项目结�
 
 ```bash
 
-go install github.com/go-nunu/nunu@latest
+go install github.com/Tooooommy/nunu@latest
 ```
 
 国内用户可以使用`GOPROXY`加速`go install`

@@ -9,8 +9,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/go-nunu/nunu/internal/pkg/helper"
-	"github.com/go-nunu/nunu/tpl"
+	"github.com/Tooooommy/nunu/internal/pkg/helper"
+	"github.com/Tooooommy/nunu/tpl"
 	"github.com/spf13/cobra"
 )
 

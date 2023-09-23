@@ -1,11 +1,11 @@
 ## 文档
-* [使用指南](https://github.com/go-nunu/nunu/blob/main/docs/zh/guide.md)
-* [分层架构](https://github.com/go-nunu/nunu/blob/main/docs/zh/architecture.md)
-* [详细教程](https://github.com/go-nunu/nunu/blob/main/docs/zh/tutorial.md)
-* [高效编写单元测试](https://github.com/go-nunu/nunu/blob/main/docs/zh/unit_testing.md)
+* [使用指南](https://github.com/Tooooommy/nunu/blob/main/docs/zh/guide.md)
+* [分层架构](https://github.com/Tooooommy/nunu/blob/main/docs/zh/architecture.md)
+* [详细教程](https://github.com/Tooooommy/nunu/blob/main/docs/zh/tutorial.md)
+* [高效编写单元测试](https://github.com/Tooooommy/nunu/blob/main/docs/zh/unit_testing.md)
 
 
-[进入英文版](https://github.com/go-nunu/nunu/blob/main/docs/en/guide.md)
+[进入英文版](https://github.com/Tooooommy/nunu/blob/main/docs/en/guide.md)
 
 # Nunu 使用指南
 
@@ -16,7 +16,7 @@ Nunu 是一个基于 Golang 的应用脚手架，它可以帮助您快速构建�
 您可以通过以下命令安装 Nunu：
 
 ```bash
-go install github.com/go-nunu/nunu@latest
+go install github.com/Tooooommy/nunu@latest
 ```
 
 国内用户可以使用`GOPROXY`加速`go install`
@@ -178,7 +178,7 @@ package repository
 import (
 	"context"
 	"fmt"
-	"github.com/go-nunu/nunu-layout-advanced/pkg/log"
+	"github.com/Tooooommy/nunu-layout-advanced/pkg/log"
 	"github.com/redis/go-redis/v9"
 	"github.com/spf13/viper"
 	"gorm.io/driver/mysql"
@@ -251,8 +251,8 @@ package handler
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/go-nunu/nunu-layout-basic/internal/service"
-	"github.com/go-nunu/nunu-layout-basic/pkg/helper/resp"
+	"github.com/Tooooommy/nunu-layout-basic/internal/service"
+	"github.com/Tooooommy/nunu-layout-basic/pkg/helper/resp"
 	"go.uber.org/zap"
 	"net/http"
 )
@@ -290,7 +290,7 @@ data:
 package repository
 
 import (
-	"github.com/go-nunu/nunu-layout-advanced/internal/model"
+	"github.com/Tooooommy/nunu-layout-advanced/internal/model"
 )
 
 
@@ -346,7 +346,7 @@ type UserRepository struct {
 
 Nunu 使用 testify、redismock、gomock、go-sqlmock等 库来编写测试。
 
-具体的测试用例可以查看[Nunu advanced layout](https://github.com/go-nunu/nunu-layout-advanced/tree/main/test/server)
+具体的测试用例可以查看[Nunu advanced layout](https://github.com/Tooooommy/nunu-layout-advanced/tree/main/test/server)
 
 您可以使用以下命令运行测试：
 

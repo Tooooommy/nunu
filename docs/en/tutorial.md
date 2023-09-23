@@ -1,10 +1,10 @@
 ## Documentation
-* [User Guide](https://github.com/go-nunu/nunu/blob/main/docs/en/guide.md)
-* [Architecture](https://github.com/go-nunu/nunu/blob/main/docs/en/architecture.md)
-* [Getting Started Tutorial](https://github.com/go-nunu/nunu/blob/main/docs/en/tutorial.md)
-* [Unit Testing](https://github.com/go-nunu/nunu/blob/main/docs/en/unit_testing.md)
+* [User Guide](https://github.com/Tooooommy/nunu/blob/main/docs/en/guide.md)
+* [Architecture](https://github.com/Tooooommy/nunu/blob/main/docs/en/architecture.md)
+* [Getting Started Tutorial](https://github.com/Tooooommy/nunu/blob/main/docs/en/tutorial.md)
+* [Unit Testing](https://github.com/Tooooommy/nunu/blob/main/docs/en/unit_testing.md)
 
-[Go to Chinese version](https://github.com/go-nunu/nunu/blob/main/docs/zh/tutorial.md)
+[Go to Chinese version](https://github.com/Tooooommy/nunu/blob/main/docs/zh/tutorial.md)
 
 # Nunu Framework User Guide
 
@@ -23,7 +23,7 @@ To use Nunu with Advanced Layout, you need to have the following software instal
 Before you can start using Nunu, you need to install it. You can do so by running the following command:
 
 ```bash
-go install github.com/go-nunu/nunu@latest
+go install github.com/Tooooommy/nunu@latest
 ```
 
 For users in China, you can use `GOPROXY` to speed up `go install`.

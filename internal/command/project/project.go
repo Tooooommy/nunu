@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 
 	"github.com/AlecAivazis/survey/v2"
-	"github.com/go-nunu/nunu/config"
-	"github.com/go-nunu/nunu/internal/pkg/helper"
+	"github.com/Tooooommy/nunu/config"
+	"github.com/Tooooommy/nunu/internal/pkg/helper"
 	"github.com/spf13/cobra"
 )
 

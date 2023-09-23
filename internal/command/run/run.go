@@ -5,6 +5,7 @@ import (
 	"os"
 	"os/signal"
 	"path/filepath"
+	"strings"
 	"syscall"
 
 	"github.com/AlecAivazis/survey/v2"
@@ -99,15 +100,16 @@ func watch(dir string, programArgs []string) {
 		if err != nil {
 			return err
 		}
-		if !info.IsDir() {
+		if !info.IsDir() && enableWatch {
 			ext := filepath.Ext(info.Name())
-			if ext == ".go" || ext == ".yml" || ext == ".yaml" || ext == ".html" {
-				err = watcher.Add(path)
-				if err != nil {
-					fmt.Println("Error:", err)
+			for _, e := range strings.Split(watchExt, ",") {
+				if e == ext {
+					err = watcher.Add(path)
+					if err != nil {
+						fmt.Println("Error:", err)
+					}
 				}
 			}
-
 		}
 		return nil
 	})
